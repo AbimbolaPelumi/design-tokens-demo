@@ -1,0 +1,133 @@
+:root {
+  --color-color-bg-accent-blue-bold: #1dc8ef;
+  --color-color-bg-accent-blue-light: #e7f9fd;
+  --color-color-bg-accent-gray-bold: #171717;
+  --color-color-bg-accent-gray-light: #f5f5f5;
+  --color-color-bg-accent-green-bold: #48d384;
+  --color-color-bg-accent-green-light: #edfbf3;
+  --color-color-bg-accent-lavendar-light: #dfe3ff;
+  --color-color-bg-accent-purple-bold: #40196d;
+  --color-color-bg-accent-purple-light: #f1eafa;
+  --color-color-bg-accent-red-bold: #f5594b;
+  --color-color-bg-accent-red-light: #feeeed;
+  --color-color-bg-accent-yellow-bold: #fdc82b;
+  --color-color-bg-accent-yellow-light: #fffaeb;
+  --color-color-bg-brand: #40196d;
+  --color-color-bg-brand-light: #672ab2;
+  --color-color-bg-disabled: #f5f5f5; /* Background for disabled components (inputs, buttons, etc.). */
+  --color-color-bg-error: #f5594b;
+  --color-color-bg-error-hovered: #c4473c;
+  --color-color-bg-modal: #ffffff;
+  --color-color-bg-on-primary: #ffffff;
+  --color-color-bg-overlay: rgba(0, 0, 0, 0.3);
+  --color-color-bg-primary: #ffffff;
+  --color-color-bg-primary-fill: #ffffff;
+  --color-color-bg-secondary: #f9f9f9;
+  --color-color-bg-success: #48d384;
+  --color-color-bg-success-hovered: #3aa96e;
+  --color-color-bg-surface: #ffffff;
+  --color-color-bg-tertiary: #e5e5e5;
+  --color-color-bg-warning: #fdc82b;
+  --color-color-bg-warning-hovered: #edb302;
+  --color-color-border-accent-blue-bold: #1dc8ef;
+  --color-color-border-accent-blue-light: #cbf2fb;
+  --color-color-border-accent-green-bold: #6ddc9d;
+  --color-color-border-accent-green-light: #daf6e8;
+  --color-color-border-accent-lavender: #dfe3ff;
+  --color-color-border-accent-purple: #40196d;
+  --color-color-border-accent-red-bold: #f5594b;
+  --color-color-border-accent-red-light: #fccdc9;
+  --color-color-border-accent-yellow-bold: #fdc82b;
+  --color-color-border-accent-yellow-light: #fff3d2;
+  --color-color-border-brand: #40196d;
+  --color-color-border-error: #f5594b;
+  --color-color-border-error-hover: #c4473c;
+  --color-color-border-primary: #d4d4d4;
+  --color-color-border-secondary: #e5e5e5;
+  --color-color-border-success: #48d384;
+  --color-color-border-success-hover: #3aa96e;
+  --color-color-border-tertiary: #f5f5f5;
+  --color-color-button-bg-brand-contrast-default: #dfe3ff; /* Used behind primary button components by default. */
+  --color-color-button-bg-brand-contrast-hover: #d1d7ff; /* Used behind primary button components by default. */
+  --color-color-button-bg-brand-filled-default: #40196d; /* Used behind primary button components by default. */
+  --color-color-button-bg-brand-filled-hover: #2c1647; /* Used behind primary button components by default. */
+  --color-color-button-bg-brand-ghost-hover: #f9f9f9; /* Used behind primary button components by default. */
+  --color-color-button-bg-brand-outlined-default: #f9f9f9; /* Used behind primary button components by default. */
+  --color-color-button-bg-brand-outlined-hover: #f5f5f5; /* Used behind primary button components by default. */
+  --color-color-button-bg-destructive-filled-default: #f5594b; /* Used behind primary button components by default. */
+  --color-color-button-bg-destructive-filled-hover: #c4473c; /* Used behind primary button components by default. */
+  --color-color-button-bg-destructive-ghost-hover: #feeeed; /* Used behind primary button components by default. */
+  --color-color-button-bg-destructive-outlined-default: #feeeed; /* Used behind primary button components by default. */
+  --color-color-button-bg-destructive-outlined-hover: #fccdc9; /* Used behind primary button components by default. */
+  --color-color-button-border-oulined-hover: #40196d;
+  --color-color-button-border-outlined-default: rgba(64, 25, 109, 0.2);
+  --color-color-button-icon-brand-default: #40196d;
+  --color-color-button-icon-brand-hover: #40196d;
+  --color-color-button-icon-destructive-default: #f5594b; /* Link that performs a destructive action (e.g. sign out, delete, remove, cancel). */
+  --color-color-button-icon-destructive-hover: #c4473c; /* Hover state for link.destructive. */
+  --color-color-button-icon-on-solid: #ffffff;
+  --color-color-button-text-brand-default: #40196d;
+  --color-color-button-text-brand-on-solid: #ffffff;
+  --color-color-button-text-brand-static: #40196d;
+  --color-color-button-text-destructive-default: #f5594b;
+  --color-color-button-text-destructive-on-solid: #ffffff;
+  --color-color-hover-darken: rgba(0, 0, 0, 0.9); /* Opacity effect for hover states on default backgrounds */
+  --color-color-hover-lighten: rgba(255, 255, 255, 0.15); /* Opacity effect for hover states on inverse backgrounds */
+  --color-color-icon-accent-blue-bold: #1dc8ef;
+  --color-color-icon-accent-blue-light: #97e5f7;
+  --color-color-icon-accent-green-bold: #48d384;
+  --color-color-icon-accent-green-light: #b6edd0;
+  --color-color-icon-accent-lavendar-light: #dfe3ff;
+  --color-color-icon-accent-purple-bold: #4f2088;
+  --color-color-icon-accent-red-bold: #f5594b;
+  --color-color-icon-accent-red-light: #faaca5;
+  --color-color-icon-accent-yellow-bold: #fdc82b;
+  --color-color-icon-accent-yellow-light: #fff3d2;
+  --color-color-icon-brand: #40196d;
+  --color-color-icon-disabled: #d4d4d4;
+  --color-color-icon-on-brand: #ffffff;
+  --color-color-icon-primary: #171717;
+  --color-color-icon-secondary: #737373;
+  --color-color-icon-tertiary: #d4d4d4;
+  --color-color-input-bg-mobile-default: #f9f9f9;
+  --color-color-input-bg-mobile-error: #feeeed; /* Light error surface for banners, alert backgrounds, etc. */
+  --color-color-input-bg-mobile-focused: #f6f7ff;
+  --color-color-input-bg-web-default: #ffffff; /* Input backgrounds specifically optimized for mobile */
+  --color-color-input-bg-web-hover: #f5f5f5; /* Input backgrounds specifically optimized for mobile */
+  --color-color-link-icon-brand-default: #40196d;
+  --color-color-link-icon-brand-hover: #40196d;
+  --color-color-link-icon-destructive-default: #f5594b; /* Link that performs a destructive action (e.g. sign out, delete, remove, cancel). */
+  --color-color-link-icon-destructive-hover: #c4473c; /* Hover state for link.destructive. */
+  --color-color-link-icon-primary-default: #48d384;
+  --color-color-link-icon-primary-hover: #3aa96e;
+  --color-color-link-text-brand-default: #40196d;
+  --color-color-link-text-brand-hover: #40196d; /* Hover state for link.primary. */
+  --color-color-link-text-destructive-default: #f5594b; /* Link that performs a destructive action (e.g. sign out, delete, remove, cancel). */
+  --color-color-link-text-destructive-hover: #c4473c; /* Hover state for link.destructive. */
+  --color-color-link-text-primary-default: #48d384;
+  --color-color-link-text-primary-hover: #3aa96e; /* Hover state for link.primary. */
+  --color-color-loader-brand-alpha: rgba(64, 25, 109, 0);
+  --color-color-loader-brand-full: #40196d;
+  --color-color-loader-default-alpha: rgba(40, 191, 96, 0);
+  --color-color-loader-default-full: #48d384;
+  --color-color-loader-destructive-alpha: rgba(245, 89, 75, 0);
+  --color-color-loader-destructive-full: #f5594b;
+  --color-color-loader-inverted-alpha: rgba(255, 255, 255, 0);
+  --color-color-loader-inverted-full: #ffffff;
+  --color-color-static-black: #000000; /* Used when white text is explicitly required for contrast on high-emphasis backgrounds like buttons, badges, or overlays. It stays white in both light and dark modes and should be used sparingly and intentionally. */
+  --color-color-static-brand: #40196d;
+  --color-color-static-white: #ffffff; /* Used when white text is explicitly required for contrast on high-emphasis backgrounds like buttons, badges, or overlays. It stays white in both light and dark modes and should be used sparingly and intentionally. */
+  --color-color-text-accent-blue: #11b9df; /* Used for blue-accented highlights or tags that require secondary visual differentiation. */
+  --color-color-text-accent-green: #48d384; /* Used for green-accented visual identifiers such as passive statuses or tags. */
+  --color-color-text-accent-purple: #4f2088; /* Used for purple-accented text elements (e.g. purple tags, purple-themed badges or links). */
+  --color-color-text-accent-red: #f5594b; /* Used for red-accented text such as status indicators or red-tagged labels. */
+  --color-color-text-accent-yellow: #edb302; /* Used for yellow-accented text in highlights, indicators, or secondary UI patterns. */
+  --color-color-text-brand: #40196d;
+  --color-color-text-disabled: #d4d4d4; /* Low-emphasis or de-emphasized text like captions, muted descriptions, or disabled metadata. */
+  --color-color-text-inverted: #ffffff; /* Used on dark backgrounds (in light mode) or light backgrounds (in dark mode) to ensure readability. */
+  --color-color-text-on-brand: #ffffff;
+  --color-color-text-placeholder: #a1a1a1; /* Reserved for placeholder text inside inputs and form elements. Not intended for labels or body copy. */
+  --color-color-text-primary: #171717;
+  --color-color-text-secondary: #737373;
+  --color-color-text-tetiary: #a1a1a1; /* Low-emphasis or de-emphasized text like captions, muted descriptions, or disabled metadata. */
+}
