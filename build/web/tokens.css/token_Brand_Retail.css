@@ -1,0 +1,11 @@
+:root {
+  --color-brand-base: #40196d;
+  --color-brand-base-alpha: rgba(64, 25, 109, 0);
+  --color-brand-base-alpha-light: rgba(79, 32, 136, 0);
+  --color-brand-dark: #40196d;
+  --color-brand-darker: #2c1647;
+  --color-brand-light: #4f2088;
+  --color-brand-lighter: #672ab2;
+  --color-brand-lightest: rgba(64, 25, 109, 0.2);
+  --color-on-brand-dark: #ffffff;
+}
